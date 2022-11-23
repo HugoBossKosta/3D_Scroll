@@ -39,6 +39,7 @@ let soundButton = document.querySelector('.soundbutton'),
     soundButton.addEventListener('click', e => {
         soundButton.classList.toggle('paused');
         audio.paused ? audio.play() : audio.pause();
+        audio.volume = 0.5;
     });
     // Убираем фокус
     window.onfocus = function() {
