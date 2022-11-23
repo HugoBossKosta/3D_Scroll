@@ -118,12 +118,12 @@ video.frame-media_left {
 /* > * все потомки */
 .text-right > * {
 position: relative;
-left: 18vw;
+left: 20vw;
 }
 
 .text-left > * {
     position: relative;
-    right: 18vw;
+    right: 20vw;
     }
 
 .frame h3 {
