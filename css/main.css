@@ -164,6 +164,17 @@ left: 15vw;
     transition: .25s ease;
 }
 
+@media (max-width: 420px) {
+    .soundbutton {
+        position: fixed;
+        bottom: 8vh;
+        right: 8vw;
+        cursor: pointer;
+        width: 8vw;
+        transition: .25s ease;
+    }
+}
+
 .soundbutton.paused {
     opacity: .25;
 }
