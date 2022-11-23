@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="rus">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/app.js" defer></script>
     <!-- defer делает так, что скрипт работает только после полной загрузки страницы -->
 </head>
 <body>
@@ -16,21 +16,94 @@
     <section class="galery">
 
         <div class="frame">
-            123
+            <div class="frame__content">
+                <h1>Hello friends</h1>
+            </div>
         </div>
 
         <div class="frame">
-            123
+            <div class="frame__content">
+                <div class="frame-media frame-media_left" style="background-image: url(./images/1.jpg)"></div>
+            </div>
+        </div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <video class="frame-media frame-media_right" src="./media/video_optimized.mp4" autoplay loop muted disablePictureInPicture></video>
+            </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame">
+            <div class="frame__content text-right">
+                <h3>Становись лучше</h3>
+                <p>Никогда не стой на месте и познавай новое, ведь это так увлекательно</p>
+            </div>
         </div>
         
-        <div class="frame">
-            123
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <div class="frame-media frame-media_left" style="background-image: url(./images/2.jpg)"></div>
+            </div>
         </div>
 
+        <div class="frame"></div>
+
+        <div class="frame">
+            <div class="frame__content text-left">
+                <h3>Думай о хорошем</h3>
+                <p>Все неудачи - это лишь путь к твоему успеху, выше нос!</p>
+            </div>
+        </div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <div class="frame-media frame-media_right" style="background-image: url(./images/3.jpg)"></div>
+            </div>
+        </div>
+
+        <div class="frame"></div>
+        <div class="frame"></div>
+
+        <div class="frame">
+            <div class="frame__content text-right">
+                <h3>Реализуй мечты</h3>
+                <p>Всё, что нас окружает было когда-то придумано, так что тебя останавливает?</p>
+            </div>
+        </div>
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <div class="frame-media frame-media_left" style="background-image: url(./images/4.jpg)"></div>
+            </div>
+        </div>
+
+        <div class="frame"></div>
+        <div class="frame"></div>
+
+
+        <div class="frame frame_bg">
+            <div class="frame__content">
+                <video class="frame-media" src="./media/video_optimized.mp4" autoplay loop muted disablePictureInPicture></video>
+            </div>
+        </div>
+
+
+        <div class="frame">
+            <div class="frame__content">
+                ©HugoBossKosta
+                <br>
+                https://github.com/HugoBossKosta
+            </div>
+        </div>
 
     </section>
 </div>
 
+
+<img class="soundbutton paused" src="./images/sound.gif" alt="Alt">
+<audio class='audio' src="./media/ambient.mp3" loop></audio>
 
 </body>
 </html>
